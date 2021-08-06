@@ -1,0 +1,131 @@
+{{define "main" }}
+<!-- jumbotron -->
+
+<div class="about d-flex align-items-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-7" data-aos="fade-left">
+        <h1>
+          Hy! I Am <br />
+          <b>Izza Wildan Ridhoni</b>
+        </h1>
+        <span class="d-block">Fullstack Web Desainer | Web Developer</span>
+        <a href="#contact" class="btn">Contact Me</a>
+        <a href="#" class="btn btn-abu mt-3 mt-sm-0"><i class="fas fa-cloud-download-alt"></i> Download CV</a>
+      </div>
+    </div>
+    <div class="sosmed">
+      <div class="row">
+        <div class="col"><i class="fab fa-instagram"></i></div>
+        <div class="col"><i class="fab fa-github"></i></div>
+        <div class="col"><i class="fab fa-whatsapp"></i></div>
+        <div class="col"><i class="fab fa-facebook"></i></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--akhir jumbotron -->
+<!-- awal recent -->
+
+<div class="recent" id="recent">
+  <div class="container mb-5">
+    <h2 class="judul">Recent Work</h2>
+    <div class="row justify-content-center">
+      {{range where .Site.RegularPages "Section" "portofolio"}}
+      <a href="{{.Permalink}}" data-aos="fade-up">
+        <div class="col-6 col-md-4 mt-3">
+          <div class="card p-2" style="width: 18rem">
+            <div class="box">
+              <div class="kotak">
+                <i class="far fa-eye"></i>
+              </div>
+              <img src="img/projek.jpg" class="rounded card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                <b>{{.Title}}</b>
+                <span>30 Desember 2021 </span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </a>
+      {{end}}
+    </div>
+  </div>
+  <!-- paginate -->
+  <!-- <a href="/portofolio">Selengkapnya</a> -->
+  <!-- akhir paginate -->
+</div>
+
+<!-- akhir recent -->
+
+<!-- tools and skill -->
+<div class="skill" id="skill">
+  <div class="container">
+    <h2 class="judul">Tools & Skills</h2>
+    <div class="row justify-content-center">
+      <div class="col-6 col-sm-4 col-md-3 mt-5 text-center skill-item">
+        <img class="img-fluid" src="img/html.png" alt="" />
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 mt-5 text-center skill-item">
+        <img class="img-fluid" src="img/vscode.png" alt="" />
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 mt-5 text-center skill-item">
+        <img class="img-fluid" src="img/js.png" alt="" />
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 mt-5 text-center skill-item">
+        <img class="img-fluid" src="img/php.png" alt="" />
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 mt-5 text-center skill-item">
+        <img class="img-fluid" src="img/bootstrap.png" alt="" />
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 mt-5 text-center skill-item">
+        <img class="img-fluid" src="img/xd.png" alt="" />
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 mt-5 text-center skill-item">
+        <img class="img-fluid" src="img/figma.png" alt="" />
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 mt-5 text-center skill-item">
+        <img class="img-fluid" src="img/css.png" alt="" />
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 mt-5 text-center skill-item">
+        <img class="img-fluid" src="img/laravel.png" alt="" />
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 mt-5 text-center skill-item">
+        <img class="img-fluid" src="img/pwa.png" alt="" />
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 mt-5 text-center skill-item">
+        <img class="img-fluid" src="img/ci.png" alt="" />
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 mt-5 text-center skill-item">
+        <img class="img-fluid" src="img/sass.png" alt="" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="contact" id="contact">
+  <div class="container">
+    <h2 class="judul">Contact Me</h2>
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-7 mt-3">
+        <input type="email" placeholder="email" />
+      </div>
+      <div class="col-12 col-md-7 mt-3">
+        <input type="text" placeholder="Subject" />
+      </div>
+      <div class="col-12 col-md-7 mt-3">
+        <textarea>Pesann...</textarea>
+      </div>
+    </div>
+    <div class="row justify-content-end">
+      <div class="col-3 mr-1 mt-4">
+        <a href="#" class="btn btn-blue">kirim</a>
+      </div>
+      <div class="col-1"></div>
+    </div>
+  </div>
+</div>
+<!-- akhir tools and skill -->
+{{end }}

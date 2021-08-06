@@ -1,0 +1,15 @@
+{{define "main"}}
+<div class="cotainer">
+  <div class="jumbotron">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore voluptas facilis perspiciatis hic at! Incidunt dignissimos id recusandae fugiat deserunt autem odio atque ducimus earum ipsam! Quae cupiditate cum molestiae.
+  </div>
+
+  <ul>
+    {{range .Paginator.Pages}}
+    <li>
+      <a href="{{.Permalink}}">{{.Title}}</a>
+    </li>
+    {{end}}
+  </ul>
+</div>
+{{end}}

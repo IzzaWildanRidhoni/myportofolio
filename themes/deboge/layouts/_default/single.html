@@ -1,0 +1,76 @@
+{{ define "main" }} {{if isset .Params "featured_image"}}
+<img src="{{.Params.featured_image}}" alt="" width="200px" />
+{{ end }}
+
+<div class="container box-single" style="margin-top: 100px">
+  <img src="/img/projek.jpg" alt="" class="gambar-single img-fluid" />
+  <br />
+  <h1 class="judul-single"><b>{{.Title}}</b></h1>
+
+  {{if .Content}}
+  <h4><b>Deskripsi</b></h4>
+  {{end}}
+
+  <div class="content-single">
+    {{.Content}}
+
+    <!--  -->
+    {{if .Params.tools}}
+    <h4><b>Tools</b></h4>
+    {{end}}
+
+    <div class="tools-single">
+      {{with .Params.tools}} {{range .}} {{ if eq . "html" }}
+      <img src="/img/html.png" alt="" />
+      {{ else if eq . "js" }}
+      <img src="/img/js.png" alt="" />
+      {{ else if eq . "vscode" }}
+      <img src="/img/vscode.png" alt="" />
+      {{ else if eq . "php" }}
+      <img src="/img/php.png" alt="" />
+      {{ else if eq . "bootsrap" }}
+      <img src="/img/bootsrap.png" alt="" />
+      {{ else if eq . "xd" }}
+      <img src="/img/xd.png" alt="" />
+      {{ else if eq . "figma" }}
+      <img src="/img/figma.png" alt="" />
+      {{ else if eq . "css" }}
+      <img src="/img/css.png" alt="" />
+      {{ else if eq . "laravel" }}
+      <img src="/img/laravel.png" alt="" />
+      {{ else if eq . "ci" }}
+      <img src="/img/ci.png" alt="" />
+      {{ else if eq . "sass" }}
+      <img src="/img/sass.png" alt="" />
+      {{end}} {{end}} {{end}}
+    </div>
+  </div>
+</div>
+
+<!-- komentar disqus -->
+<!-- <div class="container">
+  <div id="disqus_thread"></div>
+</div>
+<script>
+  /**
+   *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+   *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+  /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+  (function () {
+    // DON'T EDIT BELOW THIS LINE
+    var d = document,
+      s = d.createElement('script');
+    s.src = 'https://wcoding.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script> -->
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<!--akhir komentar disqus -->
+
+{{ end }}
