@@ -3,9 +3,16 @@
 <div class="container box-single" style="margin-top: 100px">
   <img src="/img/portofolio/{{.Params.gambar}}" alt="" class="gambar-single img-fluid" />
   <br />
-  <h1 class="judul-single"><b>{{.Title}}</b></h1>
-
-  <a href="{{.Params.previewlink}}">Live Preview</a>
+  <div class="row">
+    <div class="col-sm-6">
+      <h1 class="judul-single"><b>{{.Title}}</b></h1>
+      <span>Dipublish : {{ .PublishDate.Format "2 January 2006 " }}</span>
+    </div>
+    <div class="col-sm-6 text-right">
+      <a href="{{.Params.previewlink}}" class="btn btn-primary">Live Preview</a>
+    </div>
+  </div>
+  <hr />
 
   {{if .Content}}
   <h4><b>Deskripsi</b></h4>
@@ -28,8 +35,8 @@
       <img src="/img/vscode.png" alt="" />
       {{ else if eq . "php" }}
       <img src="/img/php.png" alt="" />
-      {{ else if eq . "bootsrap" }}
-      <img src="/img/bootsrap.png" alt="" />
+      {{ else if eq . "bootstrap" }}
+      <img src="/img/bootstrap.png" alt="" />
       {{ else if eq . "xd" }}
       <img src="/img/xd.png" alt="" />
       {{ else if eq . "figma" }}

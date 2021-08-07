@@ -2,5 +2,8 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
-gambar : ""
+gambar : "nocover.jpg"
+previewlink: ''
+tools :
+    -
 ---

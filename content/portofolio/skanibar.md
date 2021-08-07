@@ -1,6 +1,7 @@
 ---
-title: 'Skanibar'
+title: 'Webiste Smk Tembarak'
 date: 2021-08-06T14:42:54+07:00
+gambar: 'nocover.jpg'
 tools:
   - html
   - js

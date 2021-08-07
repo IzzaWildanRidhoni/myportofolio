@@ -39,12 +39,13 @@
               <div class="kotak">
                 <i class="far fa-eye"></i>
               </div>
+
               <img src="img/portofolio/{{.Params.Gambar}}" class="rounded card-img-top" alt="..." />
             </div>
             <div class="card-body">
               <p class="card-text">
                 <b>{{.Title}}</b>
-                <span>30 Desember 2021 </span>
+                <span>{{ .PublishDate.Format "2 January 2006 " }}</span>
               </p>
             </div>
           </div>
