@@ -2,3 +2,6 @@ baseURL = 'https://izzawildan.my.id/'
 languageCode = 'en-us'
 title = 'Izza WIldan | Portofolio'
 theme = 'deboge'
+
+[params]
+    Description = "Situs ini adalah Portofolio  milik izza wildan ridhoni yang terdiri dari blog probadi dan juga hasil projek yang sudah dikerjakan  "

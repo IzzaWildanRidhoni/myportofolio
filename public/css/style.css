@@ -368,4 +368,11 @@ footer i {
     margin: 20px;
   }
 }
+
+@media only screen and (max-width: 573px) {
+  .live-btn-single {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
