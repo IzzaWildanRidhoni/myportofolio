@@ -1,11 +1,11 @@
-{{ define "main" }} {{if isset .Params "featured_image"}}
-<img src="{{.Params.featured_image}}" alt="" width="200px" />
-{{ end }}
+{{ define "main" }}
 
 <div class="container box-single" style="margin-top: 100px">
-  <img src="/img/projek.jpg" alt="" class="gambar-single img-fluid" />
+  <img src="/img/portofolio/{{.Params.gambar}}" alt="" class="gambar-single img-fluid" />
   <br />
   <h1 class="judul-single"><b>{{.Title}}</b></h1>
+
+  <a href="{{.Params.previewlink}}">Live Preview</a>
 
   {{if .Content}}
   <h4><b>Deskripsi</b></h4>
