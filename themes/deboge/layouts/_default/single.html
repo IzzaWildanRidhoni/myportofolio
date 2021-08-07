@@ -1,7 +1,32 @@
 {{ define "main" }}
 
 <div class="container box-single" style="margin-top: 100px">
-  <img src="/img/portofolio/{{.Params.gambar}}" alt="" class="gambar-single img-fluid" />
+  <!-- Swiper -->
+  <div class="swiper-container mySwiper">
+    <div class="swiper-wrapper">
+      {{if .Params.gambar}}
+      <div data-hash="slide1" class="swiper-slide">
+        <img src="/img/portofolio/{{.Params.gambar}}" alt="" class="gambar-single img-fluid" />
+      </div>
+      {{end}} {{if .Params.gambar2}}
+      <div data-hash="slide2" class="swiper-slide">
+        <img src="/img/portofolio/{{.Params.gambar2}}" alt="" class="gambar-single img-fluid" />
+      </div>
+      {{end}} {{if .Params.gambar3}}
+      <div data-hash="slide3" class="swiper-slide">
+        <img src="/img/portofolio/{{.Params.gambar3}}" alt="" class="gambar-single img-fluid" />
+      </div>
+      {{end}} {{if .Params.gambar3}}
+      <div data-hash="slide4" class="swiper-slide">
+        <img src="/img/portofolio/{{.Params.gambar4}}" alt="" class="gambar-single img-fluid" />
+      </div>
+      {{end}}
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <!-- akhir swiper -->
   <br />
   <div class="row">
     <div class="col-sm-6">
