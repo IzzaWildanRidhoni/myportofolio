@@ -45,8 +45,6 @@
     <div class="swiper-wrapper">
          
     </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
     <div class="swiper-pagination"></div>
   </div>
   
@@ -135,9 +133,6 @@
 <script>
   var swiper = new Swiper('.mySwiper', {
     spaceBetween: 30,
-    hashNavigation: {
-      watchState: true,
-    },
     autoplay: {
       delay: 2500,
       disableOnInteraction: false,
@@ -145,10 +140,6 @@
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
     },
   });
 </script>
