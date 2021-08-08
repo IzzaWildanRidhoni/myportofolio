@@ -6,7 +6,7 @@ gambar: 'kadiscov/cover.jpg'
 gambar2: 'kadiscov/gambar1.jpg'
 gambar3: 'kadiscov/gambar2.jpg'
 gambar4: 'kadiscov/gambar3.jpg'
-previewlink: ''
+previewlink: 'https://www.figma.com/proto/WwtgF6ovRpR2AVYeyK2Lhv/kadiscov?node-id=16%3A68&scaling=scale-down&page-id=0%3A1&starting-point-node-id=16%3A68&show-proto-sidebar=1'
 tools:
   - figma
 ---
