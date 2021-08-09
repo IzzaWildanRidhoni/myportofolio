@@ -3,5 +3,9 @@ languageCode = 'en-us'
 title = 'Izza WIldan | Portofolio'
 theme = 'deboge'
 
+
+# Untuk Google Analytic, silahkan sesuikan
+googleAnalytics = "G-1L99B7CY4K" 
+
 [params]
     Description = "Situs ini adalah Portofolio  milik izza wildan ridhoni yang terdiri dari blog probadi dan juga hasil projek yang sudah dikerjakan  "
