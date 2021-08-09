@@ -351,6 +351,22 @@ footer i {
   object-fit: cover;
 }
 
+.uparrow {
+  background-color: #2f66c8;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99999;
+}
+.uparrow:hover {
+  color: white;
+}
 @media only screen and (max-width: 735px) {
   .about {
     background-image: none;
