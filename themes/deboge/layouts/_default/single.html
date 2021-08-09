@@ -6,19 +6,19 @@
     <div class="swiper-wrapper">
       {{if .Params.gambar}}
       <div data-hash="slide1" class="swiper-slide">
-        <img src="/img/portofolio/{{.Params.gambar}}" alt="" class="gambar-single img-fluid" />
+        <img data-src="/img/portofolio/{{.Params.gambar}}" alt="" class="lazyload gambar-single img-fluid" />
       </div>
       {{end}} {{if .Params.gambar2}}
       <div data-hash="slide2" class="swiper-slide">
-        <img src="/img/portofolio/{{.Params.gambar2}}" alt="" class="gambar-single img-fluid" />
+        <img data-src="/img/portofolio/{{.Params.gambar2}}" alt="" class="lazyload gambar-single img-fluid" />
       </div>
       {{end}} {{if .Params.gambar3}}
       <div data-hash="slide3" class="swiper-slide">
-        <img src="/img/portofolio/{{.Params.gambar3}}" alt="" class="gambar-single img-fluid" />
+        <img data-src="/img/portofolio/{{.Params.gambar3}}" alt="" class="lazyload gambar-single img-fluid" />
       </div>
       {{end}} {{if .Params.gambar3}}
       <div data-hash="slide4" class="swiper-slide">
-        <img src="/img/portofolio/{{.Params.gambar4}}" alt="" class="gambar-single img-fluid" />
+        <img data-src="/img/portofolio/{{.Params.gambar4}}" alt="" class="lazyload gambar-single img-fluid" />
       </div>
       {{end}}
     </div>
@@ -51,27 +51,27 @@
 
     <div class="tools-single">
       {{with .Params.tools}} {{range .}} {{ if eq . "html" }}
-      <img src="/img/html.png" alt="" />
+      <img data-src="/img/html.png" class="lazyload" />
       {{ else if eq . "js" }}
-      <img src="/img/js.png" alt="" />
+      <img data-src="/img/js.png" class="lazyload" />
       {{ else if eq . "vscode" }}
-      <img src="/img/vscode.png" alt="" />
+      <img data-src="/img/vscode.png" class="lazyload" />
       {{ else if eq . "php" }}
-      <img src="/img/php.png" alt="" />
+      <img data-src="/img/php.png" class="lazyload" />
       {{ else if eq . "bootstrap" }}
-      <img src="/img/bootstrap.png" alt="" />
+      <img data-src="/img/bootstrap.png" class="lazyload" />
       {{ else if eq . "xd" }}
-      <img src="/img/xd.png" alt="" />
+      <img data-src="/img/xd.png" class="lazyload" />
       {{ else if eq . "figma" }}
-      <img src="/img/figma.png" alt="" />
+      <img data-src="/img/figma.png" class="lazyload" />
       {{ else if eq . "css" }}
-      <img src="/img/css.png" alt="" />
+      <img data-src="/img/css.png" class="lazyload" />
       {{ else if eq . "laravel" }}
-      <img src="/img/laravel.png" alt="" />
+      <img data-src="/img/laravel.png" class="lazyload" />
       {{ else if eq . "ci" }}
-      <img src="/img/ci.png" alt="" />
+      <img data-src="/img/ci.png" class="lazyload" />
       {{ else if eq . "sass" }}
-      <img src="/img/sass.png" alt="" />
+      <img data-src="/img/sass.png" class="lazyload" />
       {{end}} {{end}} {{end}}
     </div>
   </div>
