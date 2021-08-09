@@ -1,5 +1,5 @@
 ---
-title: 'kanal Diskusi Covid 19 (Kadiscov)'
+title: 'UI kanal Diskusi Covid 19 (Kadiscov)'
 date: 2021-08-06T15:03:09+07:00
 description: 'Kadiscov (kanal Diskusi Covid 19)'
 gambar: 'kadiscov/cover.jpg'
