@@ -6,7 +6,19 @@
     <description>Recent content on Izza WIldan | Portofolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Aug 2021 13:21:35 +0700</lastBuildDate><atom:link href="https://izzawildan.my.id/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Aug 2021 09:03:11 +0700</lastBuildDate><atom:link href="https://izzawildan.my.id/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CRUD Contact Secara realtime</title>
+      <link>https://izzawildan.my.id/portofolio/crud_livewire_realtime/</link>
+      <pubDate>Sun, 15 Aug 2021 09:03:11 +0700</pubDate>
+      
+      <guid>https://izzawildan.my.id/portofolio/crud_livewire_realtime/</guid>
+      <description>Laravel Livewire diprogram ini dibuat menggunakan laravel dan livewire dengan beberapa fitur
+ Create Contact realtime Edit Contact realtime Delete Contact realtime Mengatur Data Pagination secara realtime Mencari Data secara realtime  untuk mencobanya anda bisa clone repositori ini dengan cara
+git clone https://github.com/IzzaWildanRidhoni/livewire.git  nb: pastikan anda telah menginstal git
+ berikut preview dari program yang saya buat </description>
+    </item>
+    
     <item>
       <title>landing Page Kliniku</title>
       <link>https://izzawildan.my.id/portofolio/kliniku/</link>

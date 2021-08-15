@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://izzawildan.my.id/</loc>
-    <lastmod>2021-08-09T13:21:35+07:00</lastmod>
+    <loc>https://izzawildan.my.id/portofolio/crud_livewire_realtime/</loc>
+    <lastmod>2021-08-15T09:03:11+07:00</lastmod>
   </url><url>
-    <loc>https://izzawildan.my.id/portofolio/kliniku/</loc>
-    <lastmod>2021-08-09T13:21:35+07:00</lastmod>
+    <loc>https://izzawildan.my.id/</loc>
+    <lastmod>2021-08-15T09:03:11+07:00</lastmod>
   </url><url>
     <loc>https://izzawildan.my.id/portofolio/</loc>
+    <lastmod>2021-08-15T09:03:11+07:00</lastmod>
+  </url><url>
+    <loc>https://izzawildan.my.id/portofolio/kliniku/</loc>
     <lastmod>2021-08-09T13:21:35+07:00</lastmod>
   </url><url>
     <loc>https://izzawildan.my.id/portofolio/alquran-online/</loc>
