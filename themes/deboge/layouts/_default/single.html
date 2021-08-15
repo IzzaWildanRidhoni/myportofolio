@@ -20,6 +20,10 @@
       <div data-hash="slide4" class="swiper-slide">
         <img data-src="/img/portofolio/{{.Params.gambar4}}" alt="" class="lazyload gambar-single img-fluid" />
       </div>
+      {{end}} {{if .Params.UrlGambar}}
+      <div data-hash="slide4" class="swiper-slide">
+        <img data-src="{{.Params.UrlGambar}}" alt="" class="lazyload gambar-single img-fluid" />
+      </div>
       {{end}}
     </div>
     <div class="swiper-pagination"></div>

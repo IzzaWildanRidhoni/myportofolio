@@ -1,7 +1,7 @@
 ---
 title: 'CRUD Contact Secara realtime'
 date: 2021-08-15T09:03:11+07:00
-gambar: 'https://i.postimg.cc/hcGP2QhF/Screenshot-from-2021-08-15-08-51-29.png'
+UrlGambar: 'https://i.postimg.cc/hcGP2QhF/Screenshot-from-2021-08-15-08-51-29.png'
 previewlink: 'https://github.com/IzzaWildanRidhoni/livewire/edit/master/README.md'
 tools:
   - laravel

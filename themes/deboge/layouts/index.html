@@ -39,8 +39,11 @@
               <div class="kotak">
                 <i class="far fa-eye"></i>
               </div>
-
+              {{if (.Params.Gambar)}}
               <img data-src="img/portofolio/{{.Params.Gambar}}" class="lazyload data-srcrounded card-img-top" alt="..." />
+              {{else}}
+              <img data-src="{{.Params.UrlGambar}}" class="lazyload data-srcrounded card-img-top" alt="..." />
+              {{end}}
             </div>
             <div class="card-body">
               <p class="card-text">
